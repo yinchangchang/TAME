@@ -2,7 +2,7 @@
 
 This repository contains the official PyTorch implementation of the following paper:
 
-> **Identifying Sepsis Subphenotypes via Time-Aware Multi-ModalAuto-Encoder**<br>
+> **Identifying Sepsis Subphenotypes via Time-Aware Multi-ModalAuto-Encoder (KDD2020)**<br>
 > Changchang yin, Ruoqi Liu, Dongdong Zhang, Ping Zhang<br>
 > [paper]()
 >
