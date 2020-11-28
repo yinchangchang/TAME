@@ -87,7 +87,7 @@ python generate_value_distribution.py
 
 2. Generate pivoted files (pivoted\_lab.csv, pivoted\_vital.csv, pivoted\_sofa.csv) according to [MIT-LCP/mimic-code](https://github.com/MIT-LCP/mimic-code/blob/master/concepts/pivot/), and put the data in TAME/data/MIMIC/initial\_mimiciii/.
 
-SQL for pivoted file generation can be found [here](https://github.com/yinchangchang/TAME/blob/master/code/preprocessing/pivoted_file_generation.md).
+-	SQL for pivoted file generation can be found [here](https://github.com/yinchangchang/TAME/blob/master/code/preprocessing/pivoted_file_generation.md).
 
 3. Preprocess MIMIC-III data.
 ```
