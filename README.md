@@ -78,7 +78,7 @@ Install [pytorch 1.3.0](https://pytorch.org/)
 2. Preprocess DACMI data.
 ```
 cd code/preprocessing
-python generate_value_distribution.py
+python generate_value_distribution.py --dataset DACMI
 
 ```
 
@@ -92,9 +92,9 @@ python generate_value_distribution.py
 3. Preprocess MIMIC-III data.
 ```
 cd code/preprocessing
-python preprocess_mimic_data.py
-python generate_sepsis_variables.py
-python generate_value_distribution.py
+python preprocess_mimic_data.py --dataset MIMIC
+python generate_sepsis_variables.py --dataset MIMIC
+python generate_value_distribution.py --dataset MIMIC
 ```
 
 # TAME
