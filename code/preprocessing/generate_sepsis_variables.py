@@ -4,8 +4,6 @@
 
 
 import sys
-reload(sys)
-sys.setdefaultencoding('utf8')
 
 import os
 import sys
@@ -276,7 +274,7 @@ def generate_lab_missing_values():
                 # assert(int(data[0])) < 800
                 if int(data[0]) < -24 or int(data[0]) >= 500: 
                     continue
-                assert(data[0]) > -200
+                assert int(data[0]) > -200
                 valid = []
                 for i in range(len(data)):
                     feat_count_dict[feat_list[i]][0] += 1
